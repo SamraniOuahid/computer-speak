@@ -5,7 +5,7 @@ engine = pyttsx3.init()  # Initialize the engine
 
 
 #name
-name = input("whats your name: ")
+name = input("whats your name:  ")
 engine.say(f"Hello {name}")
 engine.runAndWait()
 #age
